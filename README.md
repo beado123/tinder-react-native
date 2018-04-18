@@ -1,7 +1,9 @@
 # tinder-react-native
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
+
 Uses Firebase and AWS service to store data.
-A practice project that simulates functionality of tinder app.
+
+A practice project that simulates tinder app.
 
 ### Login Page
 * Uses Facebook login to authenticate with firebase.
