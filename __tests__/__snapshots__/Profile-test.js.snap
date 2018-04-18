@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "flex": 3,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 10,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https//mock_email",
+          }
+        }
+        style={
+          Object {
+            "alignItems": "center",
+            "borderRadius": 10,
+            "height": 80,
+            "justifyContent": "center",
+            "marginTop": 40,
+            "width": 80,
+          }
+        }
+      />
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#000",
+          "fontFamily": "Georgia",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "marginTop": 30,
+        }
+      }
+    >
+      mock_name,NaN
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginTop": 110,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      />
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        collapsable={undefined}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#f4f2f5",
+            "borderRadius": 20,
+            "marginTop": 10,
+            "opacity": 1,
+            "padding": 15,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "Georgia",
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+          Update Profile
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#f4f2f5",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      />
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        collapsable={undefined}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 20,
+            "opacity": 1,
+            "padding": 15,
+            "width": 100,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "Georgia",
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+          SignOut
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
