@@ -95,12 +95,12 @@ var styles = StyleSheet.create({
         paddingLeft: 15,
         fontSize: 16
     },
-    switchContainer: {
+    showAgeContainer: {
         backgroundColor: '#fff',
         marginTop: 10,
         height: 40,
         justifyContent: 'center',
-        marginBottom: 30,
+        //marginBottom: 30,
     },
     switchButton: {
         position: 'absolute',
@@ -119,6 +119,13 @@ var styles = StyleSheet.create({
         fontSize: 18,
         fontFamily: 'Georgia',
         color: '#000'
+    },
+    showNotiContainer: {
+        backgroundColor: '#fff',
+        marginTop: 25,
+        height: 40,
+        justifyContent: 'center',
+        marginBottom: 40,
     },
 });
 

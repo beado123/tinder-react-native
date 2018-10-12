@@ -1,6 +1,7 @@
 /*Set up initial state*/
 const initialState = {
     loggedIn: false,
+    foundNewMatch: false,
     user: {
         id: '',
         photoUrl: '',
@@ -56,6 +57,18 @@ export default reducers = (oldState = initialState, action) => {
         }
         case 'CHANGE_OPTION': {
             return {...oldState, user: {...oldState.user, showAge: action.showAge}}
+        }
+        case 'GET_CARDS': {
+            return {...oldState, cards: action.cards}
+        }
+        case 'GET_LOCATION': {
+            return {...oldState, user: {...oldState.user, geocode: action.geocode}}
+        }
+        case 'CHANGE_LOCATION': {
+            return {...oldState, user: {...oldState.user, geocode: action.geocode}, stateUS: action.stateUS}
+        }
+        case 'SHOW_NOTIFICATION': {
+            return {...oldState, user: {...oldState.user, token: action.token, notifications: true}}
         }
         default:
             return oldState

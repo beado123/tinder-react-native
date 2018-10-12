@@ -3,7 +3,6 @@ import styles from '../styles/Profile-style.js'
 import { StyleSheet, Text, View, Image, TouchableOpacity, ImageBackground } from 'react-native';
 import  {connect} from 'react-redux';
 import Icon from 'react-native-vector-icons/FontAwesome';
-
 import {uploadImage, logout} from '../redux/actions.js';
 
 export class Profile extends React.Component {

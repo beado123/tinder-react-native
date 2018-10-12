@@ -24,7 +24,7 @@ export class Login extends React.Component {
             console.log('firebase onAuthStateChanged..');
             if(user != null){
                 console.log("Authenticating: " + JSON.stringify(user));
-                this.props.dispatch(login(user,this.state.name,this.state.birthday,this.state.avatar_url));
+                this.props.dispatch(login(user,this.state.avatar_url));
             }
         });
     }
@@ -41,12 +41,12 @@ export class Login extends React.Component {
             fetch('https://graph.facebook.com/me?fields=birthday,name,id&access_token='+token)
             .then(response => response.json())
             .then(function(responseJson){
-                console.log('object: '+JSON.stringify(responseJson));
+                //console.log('object: '+JSON.stringify(responseJson));
                 this.setState({birthday: responseJson.birthday, name: responseJson.name});
                 //get avatar from facebook
                 fetch('https://graph.facebook.com/'+responseJson.id+'/picture?type=square')
                     .then(function(avatarJson){
-                        console.log('getting avatar, '+JSON.stringify(avatarJson));
+                        //console.log('getting avatar, '+JSON.stringify(avatarJson));
                         this.setState({avatar_url: avatarJson.url});
                         //sign in with credential
                         firebase.auth().signInWithCredential(credential).catch((error) => {
